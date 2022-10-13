@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            app:cornerRadius="37dp"
+            android:textSize="32dp"
+            android:text="7"
+            android:textStyle="bold"
+            android:layout_margin="12dp"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            app:cornerRadius="37dp"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:text="8"
+            android:layout_margin="12dp"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            app:cornerRadius="37dp"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:text="9"
+            android:layout_margin="12dp"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            app:cornerRadius="37dp"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:text="-"
+            android:layout_margin="12dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
